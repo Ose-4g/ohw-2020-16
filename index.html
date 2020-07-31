@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro clock</title>
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header class="jumbotron">
+    <nav class="navbar navbar-expand-sm mt-4">
+        <div class="container">
+            <a href="index.html" class="navbar-brand mr-auto">Pomodoro</a>
+         
+            <div id="Navbar">
+                <ul class="navbar-nav ml-auto">
+                    <!-- Notification bell -->
+                    <li class="nav-item"><a href="#" class="nav-link"><span class="fa fa-list fa-lg"></span>Menu</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="col-12 text-center clock-display" id="stopClock">25:00</div>
+        <div class="col-12 text-center task-display" id="taskClock">Clear the garden</div>
+
+
+        <div class="row mt-4">
+            <div class="col-12 text-center">
+                <div class="btn-group" role="group">
+                    <a href="#" role="button" class="btn mr-2 control-buttons">START</a>
+                    <a href="#" role="button" class="btn ml-4 control-buttons">STOP</a>
+                </div>
+            </div>
+        </div> 
+    </div>
+    </header>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <header class="text-center todolist">TO DO LIST</header>
+                <hr>
+            </div>
+        </div>
+    </div>
+ <div class="container">
+
+            <div class="row mb-2">
+                <div class="mt-5"></div>
+                <div class="col-1 mt-5">
+                     &nbsp;                
+                </div>
+
+                <div class="col-5">
+                    <label for="role">Role</label>
+                    <input type="text" class="col-12" name="" id="">
+                </div>
+
+                <div class="col-5">
+                    <label for="description" class="offset-1">Description</label>
+                    <input type="text" class="col-12 offset-1" name="" id="">
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                    <div class="col-1 ">
+                        <input type="radio"  name="" id="">
+                    </div>
+            </div>
+            <div class="row">
+
+                <div class="col-1">
+                    &nbsp;
+                    </div>
+
+                <div class="col-5">
+                    <label for="role">Session Length</label>
+                    <input type="number" class="col-12" name="" id="">
+                </div>
+
+                <div class="col-5">
+                    <label for="description" class="offset-1">Break Length</label>
+                    <input type="number" class="col-12 offset-1" name="" id="">
+                </div>
+            </div>
+             <hr>
+
+
+
+             <!-- row 2 -->
+             <div class="row mb-3">
+                <div class="mt-5"></div>
+                <div class="col-1 mt-5">
+                     &nbsp;                
+                </div>
+
+                <div class="col-5">
+                    <label for="role">Role</label>
+                    <input type="text" class="col-12" name="" id="">
+                </div>
+
+                <div class="col-5">
+                    <label for="description" class="offset-1">Description</label>
+                    <input type="text" class="col-12 offset-1" name="" id="">
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                    <div class="col-1 ">
+                        <input type="radio"  name="" id="">
+                    </div>
+            </div>
+            <div class="row">
+
+                <div class="col-1">
+                    &nbsp;
+                    </div>
+
+                <div class="col-5">
+                    <label for="role">Session Length</label>
+                    <input type="number" class="col-12" name="" id="">
+                </div>
+
+                <div class="col-5">
+                    <label for="description" class="offset-1">Break Length</label>
+                    <input type="number" class="col-12 offset-1" name="" id="">
+                </div>
+            </div>
+            
+            <hr>
+
+            <!-- row 3 -->
+            <div class="row mb-2">
+                <div class="mt-5"></div>
+                <div class="col-1 mt-5">
+                     &nbsp;                
+                </div>
+
+                <div class="col-5">
+                    <label for="role">Role</label>
+                    <input type="text" class="col-12" name="" id="">
+                </div>
+
+                <div class="col-5">
+                    <label for="description" class="offset-1">Description</label>
+                    <input type="text" class="col-12 offset-1" name="" id="">
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                    <div class="col-1 ">
+                        <input type="radio"  name="" id="">
+                    </div>
+            </div>
+            <div class="row">
+
+                <div class="col-1">
+                    &nbsp;
+                    </div>
+
+                <div class="col-5">
+                    <label for="role">Session Length</label>
+                    <input type="number" class="col-12" name="" id="">
+                </div>
+
+                <div class="col-5">
+                    <label for="description" class="offset-1">Break Length</label>
+                    <input type="number" class="col-12 offset-1" name="" id="">
+                </div>
+            </div>
+        </div>
+
+        <hr>
+
+        </div>
+
+      
+
+       
+        <div class="container">
+            <div class="row offset-1">
+                <div class="col-12">
+                    <input type="checkbox" name="" id="">
+                    <label for="">Notify me at the end of each session</label>
+                </div>
+            </div>
+            <div class="row offset-1">
+                <div class="col-12">
+                    <input type="checkbox" name="" id="">
+                    <label for="">Notify me at the end of each break</label>
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer mt-3">
+            <div class="container-fluid">
+               <p class="text-center">&copy; Group 16 Open Hack Week 2020</p>
+            </div>
+        </footer>
+
+        
+</body>
+</html>
